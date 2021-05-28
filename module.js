@@ -72,4 +72,9 @@ const fs = require("fs");
 // os module
 
 const os = require("os");
-console.log(os.type());
+// console.log(os.type()); // os type
+// console.log(os.arch()); // cpu architecture
+// console.log(os.cpus()); // cpu cores details
+// console.log("free memory", os.freemem());
+// console.log("total memory", os.totalmem());
+console.log("up time: ", os.uptime()); // show when computer start
