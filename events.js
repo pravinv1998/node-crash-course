@@ -20,4 +20,5 @@ auth.on("register", (data) => {
   console.log(`sending mail to ${data}`);
 });
 
+
 auth.register("pravin");
